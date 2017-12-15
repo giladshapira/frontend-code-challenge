@@ -1,0 +1,75 @@
+  .mdc-card {
+    width: 300px;
+  }
+  
+  .mdc-card__media {
+    background-image: url("http://via.placeholder.com/300x200");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+  }
+
+  .card-image-button {
+    height: 28px;
+    line-height: 0;
+    min-width: 0;
+    padding: 0 10px;
+    font-size: 11px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #c5c5c5 !important;
+    background-color: white !important;
+  }
+
+  .mdc-card__primary {
+      padding: 30px !important;
+  }
+
+  .mdc-card__title {
+      color: #545454;
+      line-height: 20px;
+  }
+
+  .mdc-card__subtitle {
+    margin-top: 10px;
+    color: #b6b6b6;
+    font-weight: bold;
+    font-size: 11px;
+  }
+
+  .apartment .details {
+    margin-top: 30px;
+    font-size: 13px;
+  }
+
+  .price {
+    font-weight: bold;
+    color: #303030;
+  }
+
+  .apartment-size {
+    color: #828282;
+    float: right;
+  }
+
+  .price, .apartment-size, .apartment-size span {
+    display: inline-flex;
+  }
+
+  .price, .apartment-size span {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+  .apartment-size .rooms {
+    padding-right: 10px;
+  }
+
+  .apartment-size .area {
+    border-left: 1px #eaeaea solid;
+    padding-left: 10px;
+  }
