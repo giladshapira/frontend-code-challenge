@@ -1,12 +1,14 @@
   .mdc-card {
-    width: 300px;
+    display: inline-flex;
+    width: 305px;
+    margin: 15px;
   }
   
   .mdc-card__media {
-    background-image: url("http://via.placeholder.com/300x200");
+    display: block;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 150px;
   }
 
   .card-image-button {
@@ -15,10 +17,9 @@
     min-width: 0;
     padding: 0 10px;
     font-size: 11px;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
-    margin: 25px;
     font-weight: bold;
     text-transform: capitalize;
     color: #c5c5c5 !important;
@@ -26,7 +27,9 @@
   }
 
   .mdc-card__primary {
-      padding: 30px !important;
+    position: relative;  
+    padding: 30px !important;
+    height: 150px;  
   }
 
   .mdc-card__title {
@@ -42,7 +45,12 @@
   }
 
   .apartment .details {
-    margin-top: 30px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px;
     font-size: 13px;
   }
 
@@ -60,7 +68,7 @@
     display: inline-flex;
   }
 
-  .price, .apartment-size span {
+  .price, .apartment-size > span {
     padding-top: 3px;
     padding-bottom: 3px;
   }

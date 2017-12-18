@@ -5,12 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>McMakler - Code Challenge</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://rawcdn.githack.com/customd/jquery-number/master/jquery.number.min.js"></script>
+    <script src="js/main.js"></script>
+
     <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body onload="pageLoad();">
 
+    <div id="apartments-list"></div>
     <div class="mdc-card apartment">
         <section class="mdc-card__media">
             <button type="button" class="mdc-button mdc-button--raised card-image-button">
@@ -29,7 +34,8 @@
                         3 Zimmer
                     </span>
                     <span class="area">
-                        ab 35 m
+                        ab&nbsp;
+                        <span class="meters">35</span>&nbsp;m
                         <sup>2</sup>
                     </span>
                 </div>
